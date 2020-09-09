@@ -1,0 +1,97 @@
+.seriescontent{
+height: 400px;
+width: 350px;
+transition: width 1s, height 1s, transform 1s;
+}
+
+.seriesHeader{
+    position: relative;
+
+}
+
+.seriescontent:hover{
+    transform: translate(0,-2%);
+    cursor: pointer;
+
+}
+
+.seriescontentHead{
+width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+ 
+}
+.seriesHead{
+    border: 1px solid skyblue;
+    box-shadow: 0.5px 0.5px 5px 0.5px skyblue;
+    width:50%;
+  display: flex;
+  justify-content: space-around;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+
+transition: width 1s, height 1s, transform 1s;
+
+
+}
+
+.seriesHead:hover{
+    cursor: pointer;
+        transform: translate(0,-2%);
+
+}
+
+.seriesHead p{
+    font-size: large;
+    font-style: italic;
+}
+
+h2{
+    color: rgb(32, 139, 182);
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+
+
+.FavBtn{
+    height: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: rgb(243, 141, 141);
+    color:white;
+}
+
+.unFavBtn{
+    height: 20px;
+    padding: 5px 10px;
+   
+    border-radius: 5px;
+    background: rgb(173, 171, 171);
+    color:white;
+    text-align: center;
+}
+.FavBtn:hover ,.unFavBtn:hover{
+    cursor: pointer;
+    background: rgb(238, 55, 55);
+
+}
+.imgele{
+    display: flex;
+    justify-content: space-around;
+}
+
+.msg{
+    border: 1px solid red;
+    background:red;
+    text-align: center;
+    padding: 5px;
+    width:100px;
+    position: fixed;
+    top: 100px;
+    right: 50%;
+    left: 50%;
+    border-radius: 10px;
+}

@@ -1,0 +1,33 @@
+
+
+
+
+.EpisodeEle{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+ 
+}
+.episodecontent{
+  width: 300px;
+  height: 300px;
+  transition: width 1s,height 1s, transform 1s;
+  background: red;
+  color: white;
+  font-size: large;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.episodecontent:hover{
+  transform: translate(0,-2%);
+  cursor: pointer;
+}
+
+.text{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}

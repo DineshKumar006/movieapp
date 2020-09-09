@@ -1,0 +1,36 @@
+.fav{
+    width: 100%;
+    min-height: 700px;
+    background: rgb(0, 181, 253);
+    border-radius: 10px;
+}
+
+.favinnerele{
+    border: 1px solid red;
+background: red;
+color: white;
+border-radius: 5px;
+padding: 2px;
+margin: 5px 0px;
+    width: 280px;
+    height: 300px;
+    /* display: flex; */
+    transition: width 1s,height 1s,transform 1s;
+    box-shadow: 0.5px 0.5px 5px 0.5px white;
+}
+
+.favinnerele:hover{
+    transform: translate(0,-2%);
+    cursor: pointer;
+
+}
+.favouterele{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+h2{
+    color: white;
+}

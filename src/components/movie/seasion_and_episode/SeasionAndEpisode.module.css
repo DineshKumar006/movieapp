@@ -1,0 +1,36 @@
+.EpisodeInnerele{
+    display: flex;
+    justify-content: space-around;
+}
+
+.EpisodeInnerele div{
+    width:40%
+}
+.imgele{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.Favbtn{
+    height: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: red;
+    color:white;
+}
+
+.unFavbtn{
+    height: 20px;
+    padding: 5px 10px;
+   
+    border-radius: 5px;
+    background: rgb(173, 171, 171);
+    color:white;
+    text-align: center;
+}
+.Favbtn:hover ,.unFavbtn:hover{
+    cursor: pointer;
+    background: red;
+}
